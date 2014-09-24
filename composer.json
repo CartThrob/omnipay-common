@@ -72,7 +72,9 @@
             "TargetPay_Ideal",
             "TargetPay_Mrcash",
             "TwoCheckout",
-            "WorldPay"
+            "WorldPay",
+
+            "Ogone_Ecommerce"
         ]
     }
 }
