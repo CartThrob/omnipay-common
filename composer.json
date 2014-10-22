@@ -54,7 +54,6 @@
             "Manual",
             "Migs_ThreeParty",
             "Migs_TwoParty",
-            "Mollie",
             "MultiSafepay",
             "Netaxept",
             "NetBanx",
@@ -74,6 +73,9 @@
             "TargetPay_Mrcash",
             "TwoCheckout",
             "WorldPay",
+
+            "Mollie",
+            "Mollie_Ideal",
 
             "Ogone_Ecommerce"
         ]
