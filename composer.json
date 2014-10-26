@@ -49,7 +49,6 @@
             "Coinbase",
             "Dummy",
             "Eway_Rapid",
-            "FirstData_Connect",
             "GoCardless",
             "Manual",
             "Migs_ThreeParty",
@@ -76,6 +75,10 @@
 
             "Mollie",
             "Mollie_Ideal",
+
+            "FirstData_Connect",
+            "FirstData_Global",
+            "FirstData_Telecheck",
 
             "Ogone_Ecommerce"
         ]
