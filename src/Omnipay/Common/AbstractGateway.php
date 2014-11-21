@@ -206,6 +206,36 @@ abstract class AbstractGateway implements GatewayInterface
     }
 
     /**
+     * Supports CreateCustomer
+     *
+     * @return boolean True if this gateway supports the create() method
+     */
+    public function supportsCreateCustomer()
+    {
+        return method_exists($this, 'createCustomer');
+    }
+
+    /**
+     * Supports DeleteCustomer
+     *
+     * @return boolean True if this gateway supports the delete() method
+     */
+    public function supportsDeleteCustomer()
+    {
+        return method_exists($this, 'deleteCustomer');
+    }
+
+    /**
+     * Supports UpdateCustomer
+     *
+     * @return boolean True if this gateway supports the update() method
+     */
+    public function supportsUpdateCustomer()
+    {
+        return method_exists($this, 'updateCustomer');
+    }
+
+    /**
      * Create and initialize a request object using existing parameters from this gateway
      */
     protected function createRequest($class, array $parameters)
