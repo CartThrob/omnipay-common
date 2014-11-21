@@ -236,6 +236,26 @@ abstract class AbstractRequest implements RequestInterface
         return $this->setParameter('description', $value);
     }
 
+    public function getEmail()
+    {
+        return $this->getParameter('email');
+    }
+
+    public function setEmail($value)
+    {
+        return $this->setParameter('email', $value);
+    }
+
+    public function getMetadata()
+    {
+        return $this->getParameter('metadata');
+    }
+
+    public function setMetadata($value)
+    {
+        return $this->setParameter('metadata', $value);
+    }
+
     public function getTransactionId()
     {
         return $this->getParameter('transactionId');
