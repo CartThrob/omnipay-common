@@ -186,6 +186,16 @@ abstract class AbstractGateway implements GatewayInterface
     }
 
     /**
+     * Supports CompleteCreateCard
+     *
+     * @return boolean True if this gateway supports the create() method
+     */
+    public function supportsCompleteCreateCard()
+    {
+        return method_exists($this, 'completeCreateCard');
+    }
+
+    /**
      * Supports DeleteCard
      *
      * @return boolean True if this gateway supports the delete() method
