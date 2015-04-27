@@ -86,6 +86,7 @@ abstract class AbstractResponse implements ResponseInterface
 <html>
     <head>
         <title>Redirecting...</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
     <body onload="document.forms[0].submit();">
         <form action="%1$s" method="post">
