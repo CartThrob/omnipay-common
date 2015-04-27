@@ -80,7 +80,9 @@
             "FirstData_Global",
             "FirstData_Telecheck",
 
-            "Ogone_Ecommerce"
+            "Ogone_Ecommerce",
+            "Sisow",
+            "BarclaysEpdq",
         ]
     }
 }
