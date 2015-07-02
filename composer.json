@@ -55,7 +55,6 @@
             "Migs_TwoParty",
             "MultiSafepay",
             "Netaxept",
-            "NetBanx",
             "PayFast",
             "Payflow_Pro",
             "PaymentExpress_PxPay",
@@ -75,6 +74,9 @@
 
             "Mollie",
             "Mollie_Ideal",
+
+            "NetBanx",
+            "NetBanx_Hosted",
 
             "FirstData_Connect",
             "FirstData_Global",
