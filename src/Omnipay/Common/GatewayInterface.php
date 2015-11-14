@@ -1,9 +1,17 @@
 <?php
+/**
+ * Payment gateway interface
+ */
 
 namespace Omnipay\Common;
 
 /**
  * Payment gateway interface
+ *
+ * This interface class defines the standard functions that any
+ * Omnipay gateway needs to define.
+ *
+ * @see AbstractGateway
  */
 interface GatewayInterface
 {

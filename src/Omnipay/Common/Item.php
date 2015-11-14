@@ -1,4 +1,7 @@
 <?php
+/**
+ * Cart Item
+ */
 
 namespace Omnipay\Common;
 
@@ -6,6 +9,10 @@ use Symfony\Component\HttpFoundation\ParameterBag;
 
 /**
  * Cart Item
+ *
+ * This class defines a single cart item in the Omnipay system.
+ *
+ * @see ItemInterface
  */
 class Item implements ItemInterface
 {
@@ -28,6 +35,7 @@ class Item implements ItemInterface
      * Initialize this item with the specified parameters
      *
      * @param array|null $parameters An array of parameters to set on this object
+     * @return $this Item
      */
     public function initialize($parameters = null)
     {
